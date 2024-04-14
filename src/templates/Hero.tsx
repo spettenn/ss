@@ -22,7 +22,7 @@ const Hero = () => (
       </NavbarTwoColumns>
     </Section>
 
-    <Section yPadding="pt-20 pb-32">
+    <Section yPadding="pt-20 pb-20">
       <HeroOneButton
         title={
           <>
@@ -32,8 +32,8 @@ const Hero = () => (
         }
         description={
           <p>
-            Tech enthusiast, UX enjoyer, and front-end developer. I love to
-            create reliant, fast conversion focused websites using the latest
+            Tech enthusiast, UX enjoyer, and front-end developer. I create
+            reliant, fast, conversion focused websites using the latest
             solutions.
           </p>
         }
