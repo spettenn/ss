@@ -1,13 +1,15 @@
 import Link from 'next/link';
 import type { ReactNode } from 'react';
 
+import DarkModeToggle from '../button/DarkModeToggle';
+
 type INavbarProps = {
   logo: ReactNode;
   children: ReactNode;
 };
 
 const NavbarTwoColumns = (props: INavbarProps) => (
-  <div className="flex flex-wrap items-center justify-between">
+  <div className="flex flex-wrap items-center justify-between ">
     <div>
       <Link href="/">{props.logo}</Link>
     </div>
@@ -15,6 +17,7 @@ const NavbarTwoColumns = (props: INavbarProps) => (
     <nav>
       <ul className="navbar flex items-center text-xl font-medium text-gray-800">
         {props.children}
+        <DarkModeToggle />
       </ul>
     </nav>
 

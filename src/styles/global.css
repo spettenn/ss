@@ -1,5 +1,14 @@
+/* styles/globals.css */
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
+
+/* Light Mode Styles */
+h1, h2, p, span {
+    @apply text-gray-900;
+}
+
+/* Dark Mode Styles */
+.dark h1, .dark h2, .dark p, .dark li  {
+    @apply text-gray-100;
+}
