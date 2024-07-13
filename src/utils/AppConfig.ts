@@ -1,6 +1,6 @@
 export const AppConfig = {
-  site_name: 'AS portfolio',
+  site_name: 'Spetalen Solutions',
   title: 'Aleksander Portfolio',
   description: 'Aleksander portfolio website',
-  locale: 'en',
+  locale: 'no',
 };

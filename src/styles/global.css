@@ -4,11 +4,11 @@
 @tailwind utilities;
 
 /* Light Mode Styles */
-h1, h2, p, span {
+h1, h2, h3, p, span, li {
     @apply text-gray-900;
 }
 
 /* Dark Mode Styles */
-.dark h1, .dark h2, .dark p, .dark li  {
+.dark h1, .dark h2,.dark h3, .dark p, .dark li, .dark span {
     @apply text-gray-100;
 }
